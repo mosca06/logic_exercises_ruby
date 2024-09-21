@@ -1,7 +1,5 @@
 class EvenOrOdd
   def self.calculate(number)
-    #your code here \/ \/ \/
-
-    #your code here /\ /\ /\
+    number % 2 > 0 ? "#{number} is odd" : "#{number} is even"
   end
 end
