@@ -1,7 +1,11 @@
 class AtPower
   def self.calculate(number,power)
-    #your code here \/ \/ \/
+    result_number = 1
 
-    #your code here /\ /\ /\
+    power.times do
+     result_number *= number
+    end
+
+    "#{number}^#{power} = #{result_number}"
   end
 end
