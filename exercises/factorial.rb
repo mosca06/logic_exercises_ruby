@@ -1,7 +1,11 @@
 class Factorial
   def self.calculate(number)
-    #your code here \/ \/ \/
+   fatorial_result = 1
+   
+   1.upto(number) do |i|
+    fatorial_result *= i
+   end
 
-    #your code here /\ /\ /\
+   fatorial_result
   end
 end
